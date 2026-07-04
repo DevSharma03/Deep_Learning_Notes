@@ -1,60 +1,72 @@
 # Deep Learning Notes
 
-A comprehensive collection of notes, explanations, and practical notebooks covering essential topics in Deep Learning. This repository is intended for students, practitioners, and anyone interested in understanding and applying deep learning concepts.
+A collection of my notes, code, and hands-on Jupyter notebooks while learning **Deep Learning** — covering the core theory and building blocks behind neural networks.
 
-## Table of Contents
+The goal isn't to build production systems here, but to understand core deep learning concepts by implementing them from scratch and working through the theory topic by topic.
 
-- [Overview](#overview)
-- [Repository Structure](#repository-structure)
-- [Topics Covered](#topics-covered)
-- [Usage](#usage)
-- [License](#license)
+## 🗺️ Learning Path
 
-## Overview
+- [x] Perceptrons — the building block of neural networks
+- [x] Neural Network — architectures and how networks are structured
+- [x] Forward & Back Propagation — how networks compute outputs and learn from errors
+- [x] Activation Function — ReLU, Sigmoid, Tanh, and when to use them
+- [x] Loss Function — measuring how wrong a model's predictions are
+- [x] Optimization — gradient descent and other algorithms that update weights
+- [x] Learning Rate — how it affects training speed and stability
+- [x] Hyperparameters — tuning settings that control the training process
+- [x] Normalization — techniques like batch norm to stabilize training
+- [x] Dropout — a regularization technique to reduce overfitting
+- [x] Overfitting, Early Stopping & Regularization — strategies to improve generalization
+- [x] Vanishing Gradient Problem — why deep networks can struggle to learn
+- [x] Deep Learning Models — practical model implementations
+- [x] Deep Generative Modeling — generative approaches in deep learning
 
-This repository contains well-organized notes and Jupyter Notebooks on various deep learning concepts, theory, and implementations. Each topic is structured in its own directory for ease of navigation and focused study.
+## 📚 Contents
 
-## Repository Structure
+| Topic | Description |
+|---|---|
+| [Perceptrons](./Perceptrons) | Introduction to the perceptron and its significance |
+| [Neural Network](./Neural%20Network) | Concepts and architectures of neural networks |
+| [Forward & Back Propogation](./Forward%20%26%20Back%20Propogation) | Step-by-step explanation of forward and backward propagation |
+| [Activation Function](./Activation%20Function) | Notes and examples on activation functions |
+| [Loss Function](./Loss%20Function) | Explanation and examples of different loss functions |
+| [Optimization](./Optimization) | Algorithms and methods for optimizing deep learning models |
+| [Learning Rate](./Learning%20Rate) | How learning rate impacts training |
+| [Hyperparameters](./Hyperparameters) | Insights into hyperparameter tuning |
+| [Normalization](./Normalization) | Techniques and benefits of normalization |
+| [Dropout](./Dropout) | Dropout regularization techniques |
+| [Overfitting, Early Stopping & Regularization](./Overfitting%2C%20Early%20Stopping%20%26%20Regularization) | Strategies to prevent overfitting and improve generalization |
+| [Vanishing Gradient Problem](./Vanishing%20Gradient%20Problem) | Detailed notes on the vanishing gradient issue |
+| [Deep Learning Models](./Deep%20Learning%20Models) | Practical implementations of deep learning models |
+| [Deep Generative Modeling](./Deep%20Generative%20Modeling) | Notes on generative modeling approaches |
 
-- `Deep Learning.ipynb` - Main notebook summarizing deep learning concepts.
-- **Activation Function/** - Notes and examples on activation functions used in neural networks.
-- **Dropout/** - Materials covering dropout regularization techniques.
-- **Forward & Back Propagation/** - Step-by-step explanation of forward and backward propagation in neural networks.
-- **Hyperparameters/** - Insights into hyperparameter tuning and optimization.
-- **Loss Function/** - Explanation and examples of different loss functions.
-- **Neural Network/** - Concepts and architectures of neural networks.
-- **Normalization/** - Techniques and benefits of normalization in deep learning.
-- **Optimization/** - Algorithms and methods for optimizing deep learning models.
-- **Overfitting, Early Stopping & Regularization/** - Strategies to prevent overfitting and improve generalization.
-- **Perceptrons/** - Introduction to perceptron models and their significance.
-- **Vanishing Gradient Problem/** - Detailed notes on the vanishing gradient issue in deep learning.
+## 📓 Notebooks
 
-## Topics Covered
+- [`Deep Learning.ipynb`](./Deep%20Learning.ipynb) — Main notebook summarizing core deep learning concepts
 
-- Fundamentals of Deep Learning
-- Neural Network Architecture
-- Activation & Loss Functions
-- Forward and Backward Propagation
-- Optimization Techniques
-- Regularization, Dropout, Early Stopping
-- Hyperparameter Tuning
-- Normalization Methods
-- Perceptrons
-- Vanishing Gradient Problem
+## 🛠️ Tools & Libraries
 
-## Usage
+- Python
+- Jupyter Notebook
 
-1. Clone this repository:
-   ```bash
-   git clone https://github.com/DevSharma03/Deep_Learning_Notes.git
-   ```
-2. Open the Jupyter Notebooks (`.ipynb` files) in your preferred environment (e.g., JupyterLab, Google Colab).
-3. Explore each directory for topic-specific notes and resources.
+## 🎯 Purpose
 
-## License
+This repo serves as a personal learning log — a place to practice core deep learning concepts step by step, from perceptrons and backpropagation to regularization and generative modeling.
 
-This project is licensed under the [MIT License](LICENSE).
+## 🚀 How to Use
 
----
+Clone the repo and open any notebook in Jupyter to follow along:
 
-Feel free to contribute by submitting pull requests for improvements or additional topics!
+```bash
+git clone https://github.com/DevSharma03/Deep_Learning_Notes.git
+cd Deep_Learning_Notes
+jupyter notebook
+```
+
+## 🤝 Contributing
+
+This is primarily a personal learning repo, but suggestions, corrections, and pull requests are welcome if you spot something that could be improved.
+
+## 📄 License
+
+This project is licensed under the [MIT License](./LICENSE).
